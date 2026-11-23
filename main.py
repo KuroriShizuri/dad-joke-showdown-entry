@@ -8,8 +8,8 @@ Standard library only.
 import os
 
 JOKE = (
-    "I asked my wife why she married a guy who tells jokes at the dinner "
-    "table. She said, 'Somebody had to raise the steaks.'"
+    "I asked my wife why she married a guy who tells jokes over dinner. "
+    "She said, 'Somebody had to raise the steaks.'"
 )
 
 
