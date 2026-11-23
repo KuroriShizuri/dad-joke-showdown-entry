@@ -19,6 +19,8 @@ def main() -> None:
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(JOKE)
+    with open("/output/entry.txt", encoding="utf-8") as f:
+        assert f.read() == JOKE, "entry.txt does not match JOKE"
     print(JOKE)
 
 
